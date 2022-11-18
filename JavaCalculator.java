@@ -13,13 +13,6 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
 
-
-
-
-
-
-
-
 public class Calculator implements ActionListener{
 	
 	boolean isOperatorClicked=false; 
@@ -400,10 +393,6 @@ public class Calculator implements ActionListener{
 			
 			
 			
-			
-			
-			
-			
 		}else if (e.getSource()==divButton) {
 			
 			isOperatorClicked=true;
@@ -553,45 +542,23 @@ public class Calculator implements ActionListener{
 			      
 
 				
-				
-				
-				
-		
-				
-				
-				
-					
-					
-					
-				
-			
-					
-				
-				
-			
 			
 		}else if (e.getSource()==clearButton) {
 			displayJLabel.setText("");
 			
 			
-			
+	
 			
 			
 		}
 		
 		
 		
-		
-		
-		
-		
+	
 		
 	}
 
 	
-
-
-
 	
 
 }
